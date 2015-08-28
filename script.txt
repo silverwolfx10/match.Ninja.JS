@@ -1,0 +1,6 @@
+<script id="NinjaJS">
+    (function (script) {
+        location.assign('javascript:(function () {}).call({}); window.dispatchEvent(new Event("load")); void(0);');
+        script.parentNode.removeChild(script);
+    })(document.querySelector('#NinjaJS'));
+</script>

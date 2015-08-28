@@ -11,7 +11,7 @@
  *        $match('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', /[A-E]/gi);
  *
  */
-Ninja.module('$match', ['$curry'], function ($curry) {
+this.Ninja.module('$match', ['$curry'], function ($curry) {
   
   /**
    * Recupera os matches quando a correspondência de uma string
